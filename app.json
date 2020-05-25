@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Lista-Mercado",
+    "slug": "ToBuyList",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5265762312024051~7245662217"
+      }
+    },
+    "android":{
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5265762312024051~7245662217"
+      }
+    },
+    "description": "Feito para listar compras antes de ir no mercado, com funcionalidades que só serão usadas dentro do próprio mercado!"
+  }
+}
